@@ -6,6 +6,11 @@ display:flex;
 flex-direction:column;
 align-items:center;
 justify-content:center;
+@media(max-width: 768px){
+    width:100%;
+    height:90%;
+  }
+
 `
 
 export const PaymentConfirmationContent = styled.div`
@@ -18,4 +23,9 @@ p{
   font-size:1.125rem;
   font-weight:500;
 }
+
+@media(max-width: 768px){
+    width:100%;
+    padding:30px;
+  }
 `
