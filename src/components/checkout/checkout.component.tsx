@@ -18,7 +18,7 @@ const Checkout: FunctionComponent = () => {
     try {
       setIsLoading(true)
       const { data } = await axios.post(
-        `${process.env.REACT_APP_API_URL}/create-checkout-session`,
+        `${process.env.REACT_APP_API_URL}create-checkout-session`,
 
         { products })
 
